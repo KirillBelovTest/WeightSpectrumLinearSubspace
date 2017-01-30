@@ -1,11 +1,13 @@
-(* ::Package:: *)
+(* Paclet Info File *)
 
-(* Paclet Info *)
+(* created 2017/01/30*)
+
 Paclet[
-	Name -> "weightspectrumlinearsubspace", 
-	Author -> "Kirill Belov", 
-	Version -> "0.0.3",
-	MathematicaVersion -> "9.0+"
-	(* additional information *)
-	(* ... *)
-]; 
+    Name -> "WeightSpectrumLinearSubspace",
+    Version -> "0.0.1",
+    MathematicaVersion -> "10.0+",
+    Description -> "Calculation of the Weight Spectrum of the Linear Subspace ",
+    Creator -> "Kirill Belov"
+]
+
+
