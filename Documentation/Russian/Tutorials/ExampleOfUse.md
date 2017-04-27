@@ -30,7 +30,7 @@ WeightSpectrumLinearSubspace[simplevectors]
 ```mathematica
 list20dim32 = RandomInteger[{0, 1}, {20, 32}];
 list20dim32 // Dimensions
-weightoflist20dim32 = WeightSpectrumLinearSubspace[list20dim32]
+eightoflist20dim32 = WeightSpectrumLinearSubspace[list20dim32]
 
 (*
 	Out[..] = {20, 32}
@@ -102,8 +102,7 @@ paralleltest = RandomInteger[{0, 1}, {24, 128}];
 If[Kernels[] == {}, LaunchKernels[]];
 
 AbsoluteTiming[WeightSpectrumLinearSubspace[paralleltest];]
-AbsoluteTiming[WeightSpectrumLinearSubspace[paralleltest,
-	Parallelization -> True];]
+AbsoluteTiming[WeightSpectrumLinearSubspace[paralleltest, Parallelization -> True];]
 
 (*
 	Out[..] = {10.3901, Null}
