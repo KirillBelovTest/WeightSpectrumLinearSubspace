@@ -24,4 +24,4 @@ Decimal|Binary|Gray|Gray as decimal
 
 Так же можно получить дополнительные сведения по ссылке ниже в Главе 13  
 
-[Алгоритмические Трюки Для Программистов](../../Russian/Books/Hackers Delight.pdf)
+[Алгоритмические Трюки Для Программистов](../../Russian/Books/Hackers_Delight.pdf)
